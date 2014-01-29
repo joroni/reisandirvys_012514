@@ -1,4 +1,5 @@
 /* Specify DrupalGap Mobile Application Settings Here */
+drupalgap.settings = {};
 
 /****************************************|
  * Drupal Settings (provided by jDrupal) |
@@ -8,6 +9,10 @@
  
 // Site Path (do not use a trailing slash)
 Drupal.settings.site_path = 'http://www.m.reisandirvys.com'; // e.g. http://www.example.com
+
+// Base Path
+drupalgap.settings.base_path = '/';
+
 
 // Default Services Endpoint Path
 Drupal.settings.endpoint = 'drupalgap';
@@ -50,6 +55,12 @@ drupalgap.settings.theme = 'easystreet3';
 // Logo
 drupalgap.settings.logo = 'themes/easystreet3/images/drupalgap.jpg';
 
+
+ 
+// Language
+drupalgap.settings.language = 'und';
+
+
 // Loader Animations - http://demos.jquerymobile.com/1.4.0/loader/
 drupalgap.settings.loader = {
   loading: {
@@ -84,6 +95,8 @@ drupalgap.settings.loader = {
 /***************************************|
  * Menus - http://drupalgap.org/node/85 |
  ***************************************/
+
+
 drupalgap.settings.menus = {}; // Do not remove this line.
 
 // User Menu Anonymous
